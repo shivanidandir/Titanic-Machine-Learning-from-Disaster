@@ -8,8 +8,10 @@ Created a machine learning application in python to predict the survival rate of
 
 **DATA WRANGLING AND PREPROCESSING**
 
-Firstly I loaded packages and then loaded data into train and test variables. Now, to do operations I combined the data into Titanic variable (So that I don't have to do operation twice).I also created an index for each train and test so that I can separate them out later into their respective train and test. Use the .info() method to get a description of the columns in the dataframe.The code takes a value like “Braund, Mr. Owen Harris” from the Name column and extracts “Mr”: and created Data dictionary for the same and normalized it.
-Filled the missing value with the median. For 'Cabin'(70%) filled 'u' for unkown values, for 'Embarked' filled with the most frequent value and for 'Fare' only one missing value was there so filled it with median.
+* Firstly I loaded packages and then loaded data into train and test variables. Now, to do operations I combined the data into Titanic variable (So that I don't have to do operation twice).
+* I also created an index for each train and test so that I can separate them out later into their respective train and test. Use the .info() method to get a description of the columns in the dataframe.
+* The code takes a value like “Braund, Mr. Owen Harris” from the Name column and extracts “Mr”: and created Data dictionary for the same and normalized it.
+* Filled the missing value with the median. For 'Cabin'(70%) filled 'u' for unkown values, for 'Embarked' filled with the most frequent value and for 'Fare' only one missing value was there so filled it with median.
 
 **FEATURE ENGINEERING**
 
